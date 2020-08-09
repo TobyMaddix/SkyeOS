@@ -1,6 +1,9 @@
 # Skye OS
 The source code of Skye OS.
 
+<h1>Install & Debuging Apps</h1>
+<p>Open the <b>Install</b> app from the launcher and then click <b>Manual Install</b>. <br>The app will guide you through the install process then open the app!</p>
+
 <h1>Skye Script Documentation</h1>
 
 <h3>Introduction</h3>
