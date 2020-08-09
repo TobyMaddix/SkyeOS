@@ -12,6 +12,17 @@ The source code of Skye OS.
 <h3>Defining</h3>
 <p>var <b>NAME</b>;</p>
 <p>var <b>NAME</b> = <b>STRING</b>;</p>
+<h3>Deleting</h3>
+<p>del <b>NAME</b>;</p>
+
+<h2>Lists</h2>
+<h3>Defining</h3>
+<p>list <b>NAME</b>;</p>
+<h3>Editing</h3>
+<p>list.append <b>NAME</b> <b>STRING</b>;</p>
+<p>list.remove <b>NAME</b> <b>ITEM</b>;</p>
+<h3>Deleting</h3>
+<p>del <b>NAME</b>;</p>
 
 <h2>Functions</h2>
 <h3>Creating & Running</h3>
