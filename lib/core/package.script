@@ -1,0 +1,27 @@
+package.install | aName aDir aData;
+    cin ("fs.file.make -name `" & aName & "` -type `" & "app" & "` -folder `" & "usr/app/" & aDir & "` -data `" & aData & "`");
+    package.install_end;
+
+package.install.manual | void;
+    input "name";
+    aName = ui::ans;
+    input "folder";
+    aDir = ui::ans;
+    input "data";
+    aData = ui::ans;
+    cin ("fs.file.make -name `" & aName & "` -type `" & "app" & "` -folder `" & "usr/app/" & aDir & "` -data `" & aData & "`");
+    
+    input "id";
+    aId = ui::ans;
+    input "key";
+    aKey = ui::ans;
+    input "mode";
+    aMode = ui::ans;
+    cast "shell.home";
+    cin ("app.open -name `" & aName & "` -folder `" & "usr/app/" & aDir & "` -id `" & aId & "` -key `" & aKey & "` -mode `" & aMode & "`");
+    package.install.manual_end;
+
+package.run | aName aDir aId aKey aMode;
+    cast "shell.home";
+    cin ("app.open -name `" & aName & "` -folder `" & "usr/app/" & aDir & "` -id `" & aId & "` -key `" & aKey & "` -mode `" & aMode & "`");
+    package.run_end;
