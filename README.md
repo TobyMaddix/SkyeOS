@@ -26,7 +26,7 @@ The source code of Skye OS.
 <p><b>INSTRUCTION</b> <b>PARAMS</b>;</p>
 
 <h2>Strings</h2>
-<p>When setting a parameter, there are a few ways of setting what type of data should be inserted. They are <b>Strings</b>, <b>Numbers</b>, <b>Math Functions</b> and <b>Variables</b>.
+<p>When setting a parameter, there are a few ways of setting what type of data should be inserted. They are <b>Strings</b>, <b>Numbers</b>, <b>Math Functions</b>, <b>Variables</b> and <b>Lists</b>. Typing in a string with no quotes will throw an error.</p>
 <h3>Strings</h3>
 <p>Set a string by enclosing it with single or double quote marks like this: <b>"STRING"</b></p>
 <h3>Numbers</h3>
@@ -35,3 +35,5 @@ The source code of Skye OS.
 <p>Enclose it with brackets: <b>(FUNCTIONS)</b></p>
 <h3>Variables</h3>
 <p>Type in the variable name: <b>NAME</b></p>
+<h3>Lists</h3>
+<p>Type in the list name and item number: <b>NAME</b>#<b>ITEM</b></p>
