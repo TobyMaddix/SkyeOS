@@ -48,3 +48,19 @@ The source code of Skye OS.
 <p>Type in the variable name: <b>NAME</b></p>
 <h3>Lists</h3>
 <p>Type in the list name and item number: <b>NAME</b>#<b>ITEM</b></p>
+
+<h2>Skye Modual</h2>
+<p>Skye Script has a set instructions separate from the core set which control parts of the OS. Here's a list of them:</p>
+<ul>
+  <li>#import NAME DIR;</li>
+  <li>#import NAME DIR TYPE;</li>
+  <li>#import NAME DIR TYPE as VARNAME;</li>
+  <li>cin STRING;</li>
+  <li>gin STRING;</li>
+  <li>log STRING;</li>
+  <li>cast STRING;</li>
+  <li>wait STRING;</li>
+  <li>input STRING;</li>
+  <li>net.server STRING;</li>
+  <li>net.client STRING;</li>
+</ul>
